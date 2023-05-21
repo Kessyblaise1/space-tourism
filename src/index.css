@@ -1,0 +1,32 @@
+:root{
+  --root-color: #0B0D17;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  max-width: 100%;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+img{
+  max-height: 100%;
+  width: auto;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background: var(--root-color);
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #D0D6F9;
+}
+
+.dest_text{
+  font-size: 18px;
+  line-height: 32px;
+}

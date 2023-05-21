@@ -1,0 +1,60 @@
+.Crew{
+  background: url(./assets/crew/background-crew-desktop.jpg);
+  height: 100vh;
+  background-size: 100% 100%;  
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.crew_grid{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-height: 500px;
+  justify-items: flex-end;
+  width: 1024px;
+}
+
+.crew_member img{
+  height: 470px;
+}
+
+.crew_desc_container{
+  justify-self: flex-start;
+}
+
+.Crew h1{
+  font-size: 56px;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  color: white;
+}
+
+.Crew h1 span{
+  display: block;
+  font-size: 32px;
+  color: #959595;
+  margin-bottom: 15px;
+}
+
+.Crew .dest_text{
+  width: 440px;
+  font-family: 'Barlow', serif;
+}
+
+.nav_span{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background: #505050;
+  border-radius: 50%;
+  margin-right: 24px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.nav_span:hover{
+  background: rgba(255, 255, 255, 0.6);
+}

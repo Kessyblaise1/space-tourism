@@ -1,0 +1,16 @@
+.pageDesc {
+  font-size: 28px;
+  letter-spacing: 4.72px;
+  text-transform: uppercase;
+  margin-bottom: 57px;
+  color: white;
+  font-family: 'Barlow Condensed', serif;
+}
+
+.pageDesc span {
+  font-size: 28px;
+  color: #959595;
+  font-weight: normal;
+  margin-right: 28px;
+  font-family: 'Barlow Condensed', serif;
+}
