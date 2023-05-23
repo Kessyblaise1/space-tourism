@@ -1,0 +1,59 @@
+.tech,
+.tech .navigation span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech{
+  height: 100vh;
+  background: url('./assets/technology/background-technology-desktop.jpg');
+  background-size: 100%;
+  justify-content: flex-end;
+}
+
+.techGrid{
+  display: grid;
+  width: 100%;
+  margin: 0 0 0 163px;
+  margin-top: 3rem;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto repeat(2, 1fr);
+  column-gap: 3rem;
+  height: 500px;
+}
+
+.tech .pageDesc{
+  grid-column: 1/4;
+}
+
+.tech .navigation span{
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 32px;
+  margin-bottom: 32px;
+  border: .3px solid #ffffff25;
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.tech .navigation span:hover{
+  border-color: white;
+}
+
+.tech .navigation span.active{
+  background: white;
+  color: black;
+}
+
+.tech_image{
+  text-align: right;
+}
+
+.techGrid img{
+  max-height: 400px;
+  height: 100%;
+}
